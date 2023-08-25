@@ -1,0 +1,46 @@
+.jumbotron {
+  margin-top: 30px;
+}
+
+.invalid-feedback {
+  color: red;
+}
+.jumbotron {
+  margin-top: 20px;
+}
+
+.container {
+  max-width: 600px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+}
+
+.invalid-feedback {
+  color: red;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+@media (max-width: 576px) {
+  .col-md-6.offset-md-3 {
+    margin-top: 20px;
+  }
+}

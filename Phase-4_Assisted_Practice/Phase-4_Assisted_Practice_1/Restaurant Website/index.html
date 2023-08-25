@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sathwik's Delight</title>
+    <!-- Link to Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Sathwik's Delight</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#bestsellers">Bestsellers</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Landing Page -->
+<div class="jumbotron">
+    <h1>Welcome to Sathwik's Delight</h1>
+    <p>Experience the finest culinary delights in town.</p>
+    <a href="#bestsellers" class="btn btn-primary btn-lg">Explore Bestsellers</a>
+</div>
+
+<!-- Bestsellers Section -->
+<section id="bestsellers" class="container">
+    <h2>Our Bestsellers</h2> <br>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="./images/biryani.jpg" class="card-img-top" alt="biryani">
+                <div class="card-body">
+                    <h5 class="card-title">Biryani</h5>
+                    <p class="card-text">Biryani is a fragrant and flavorful dish that originates from South Asia, blending aromatic basmati rice with a medley of tender meat, succulent seafood, or aromatic vegetables. This culinary masterpiece is artfully infused with a rich blend of spices and herbs, creating a harmonious fusion of textures and tastes that delight the senses. Renowned for its diverse regional variations, biryani is a cherished indulgence that captures the essence of a cultural culinary journey on a single plate.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./images/dosa.jpg" class="card-img-top" alt="dosa">
+                    <div class="card-body">
+                        <h5 class="card-title">Dosa</h5>
+                        <p class="card-text">Dosa is a beloved South Indian delicacy that tantalizes taste buds with its thin, crispy texture and delightful flavor. Made from fermented rice and lentil batter, dosa is skillfully spread onto a griddle, resulting in a golden-brown crepe-like creation. Served with an array of chutneys and sambhar, dosa offers a harmonious blend of taste and texture, making it a popular choice for breakfast or any time of the day. Its versatility and deliciousness have earned dosa a special place in both traditional and modern culinary scenes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./images/Idli.jpg" class="card-img-top" alt="idli">
+                        <div class="card-body">
+                            <h5 class="card-title">Idli</h5>
+                            <p class="card-text">Idli, a staple of South Indian cuisine, is a soft and spongy steamed cake made from a batter of fermented rice and urad dal (black gram). Its simple yet wholesome composition offers a delicate balance of flavors and textures. Idli's versatility shines as it pairs effortlessly with a variety of accompaniments, such as chutneys and sambar, making it a beloved breakfast or snack option. With its lightness and comforting taste, idli has earned a cherished spot in the hearts of food enthusiasts worldwide.</p>
+                        </div>
+                    </div>
+                </div>
+    </div>
+</section>
+<br>
+
+<!-- Contact Section -->
+<section id="contact" class="container">
+    <h2>Contact Us</h2>
+    <form>
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</section>
+<br>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2023 Sathwik's Restaurant. All rights reserved.</p>
+</footer>
+
+<!-- Link to Bootstrap JS and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
