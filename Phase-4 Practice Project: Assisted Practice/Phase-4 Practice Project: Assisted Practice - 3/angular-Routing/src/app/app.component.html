@@ -1,0 +1,8 @@
+<h1>Welcome to Routing and Sign Up Example</h1>
+<nav>
+  <a routerLink="/signup" (click)="showSignUpForm()">Sign Up</a>
+</nav>
+
+<div class="signup-form" *ngIf="showSignUp">
+  <router-outlet></router-outlet>
+</div>
